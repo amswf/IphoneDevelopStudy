@@ -37,15 +37,15 @@ object-c中变量分成三种：基本数据类型,对象类型,id类型。
 
 <code>   
  #import \<Foundation/Foundation.h\>
-<br/>@interface Calculator : NSObject
-<br/>{
-<br/>    int numerator;//分子
-<br/>    int denominator;//分母
-<br/>}
-<br/>-(void)print;
-<br/>-(void)setNumerator:(int)n ;
-<br/>-(void)setDenominator:(int)d;
-<br/>@end 
+@interface Calculator : NSObject
+{
+    int numerator;//分子
+    int denominator;//分母
+}
+-(void)print;
+-(void)setNumerator:(int)n ;
+-(void)setDenominator:(int)d;
+@end 
 </code>
 
 ////////////////////Calculator.m////////////////////
