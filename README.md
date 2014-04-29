@@ -1,4 +1,4 @@
-object-c基础
+object-c基础（本人主页：http://amswf.com）
 ==================
 ## 调试函数
 <br/>NSLog(@"hello world!");
